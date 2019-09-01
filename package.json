@@ -4,13 +4,19 @@
   "description": "My personal website",
   "version": "0.1.0",
   "license": "MIT",
+  "prettier": "@dcrtantuco/prettier-config",
+  "eslintConfig": { "extends": ["@dcrtantuco/eslint-config"] },
+  "stylelint": { "extends": ["@dcrtantuco/stylelint-config"] },
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
-    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing \""
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing \"",
+    "prettier:check": "prettier --list-different \"**/*.{js,jsx,json,md}\"",
+    "prettier:fix": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "lint:js": "eslint '**/*.js'",
+    "lint:css": "stylelint '**/*.{css,scss}'"
   },
   "dependencies": {
     "gatsby": "^2.13.73",
@@ -18,7 +24,14 @@
     "react-dom": "^16.9.0"
   },
   "devDependencies": {
-    "prettier": "^1.18.2"
+    "@dcrtantuco/eslint-config": "^1.0.2",
+    "@dcrtantuco/prettier-config": "^1.0.1",
+    "@dcrtantuco/stylelint-config": "^1.0.1",
+    "eslint": "^6.3.0",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.14.3",
+    "prettier": "^1.18.2",
+    "stylelint": "^10.1.0"
   },
   "repository": {
     "type": "git",
