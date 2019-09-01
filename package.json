@@ -5,13 +5,22 @@
   "version": "0.1.0",
   "license": "MIT",
   "prettier": "@dcrtantuco/prettier-config",
-  "eslintConfig": { "extends": ["@dcrtantuco/eslint-config"] },
-  "stylelint": { "extends": ["@dcrtantuco/stylelint-config"] },
+  "eslintConfig": {
+    "extends": [
+      "@dcrtantuco/eslint-config"
+    ]
+  },
+  "stylelint": {
+    "extends": [
+      "@dcrtantuco/stylelint-config"
+    ]
+  },
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
     "start": "npm run develop",
     "serve": "gatsby serve",
+    "deploy": "gatsby build && gh-pages -d public -b master",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing \"",
     "prettier:check": "prettier --list-different \"**/*.{js,jsx,json,md}\"",
     "prettier:fix": "prettier --write \"**/*.{js,jsx,json,md}\"",
@@ -30,6 +39,7 @@
     "eslint": "^6.3.0",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.14.3",
+    "gh-pages": "^2.1.1",
     "prettier": "^1.18.2",
     "stylelint": "^10.1.0"
   },
