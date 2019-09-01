@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[1],{187:function(e,a,n){"use strict";n.r(a);var t=n(0),l=n.n(t);a.default=function(){return l.a.createElement("div",null,l.a.createElement("p",null,"I am a web developer fiddling with javascript, ruby and elixir."),l.a.createElement("p",null,"I like building tools and have a soft spot for automation."),l.a.createElement("p",null,"I also have passion for open-source projects."))}}}]);
+//# sourceMappingURL=component---src-pages-index-js-5b725c975ff58ffd8f4b.js.map
