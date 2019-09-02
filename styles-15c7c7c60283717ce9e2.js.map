@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./src/pages/index.module.scss"],"names":["module","exports","container"],"mappings":"mGACAA,EAAAC,QAAA,CAAkBC,UAAA","file":"styles-15c7c7c60283717ce9e2.js","sourcesContent":["// extracted by mini-css-extract-plugin\nmodule.exports = {\"container\":\"index-module--container--2IQ43\"};"],"sourceRoot":""}
