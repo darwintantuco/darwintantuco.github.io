@@ -1,0 +1,10 @@
+@import '../vendors.scss';
+@import '../variables.scss';
+
+.container {
+  margin: 48px 24px;
+
+  > p {
+    @include font-size(2);
+  }
+}
