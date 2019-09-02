@@ -1,0 +1,8 @@
+@import './variables.scss';
+@import './vendor.scss';
+
+html,
+body {
+  font-family: $base-font;
+  @include font-size(0);
+}
