@@ -5,6 +5,7 @@
   margin: 48px 24px;
 
   > p {
+    color: gray;
     @include font-size(2);
   }
 }
