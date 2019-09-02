@@ -22,8 +22,8 @@
     "serve": "gatsby serve",
     "deploy": "gatsby build && gh-pages -d public -b master",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing \"",
-    "prettier:check": "prettier --list-different \"**/*.{js,jsx,json,md}\"",
-    "prettier:fix": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "prettier:check": "prettier --list-different \"**/*.{css,scss,js,jsx,json,md}\"",
+    "prettier:fix": "prettier --write \"**/*.{css,scss,js,jsx,json,md}\"",
     "lint:js": "eslint '**/*.js'",
     "lint:css": "stylelint '**/*.{css,scss}'"
   },
