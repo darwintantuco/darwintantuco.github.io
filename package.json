@@ -22,10 +22,10 @@
     "serve": "gatsby serve",
     "deploy": "gatsby build && gh-pages -d public -b master",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing \"",
-    "prettier:check": "prettier --list-different \"**/*.{css,scss,js,jsx,json,md}\"",
-    "prettier:fix": "prettier --write \"**/*.{css,scss,js,jsx,json,md}\"",
-    "lint:js": "eslint '**/*.js'",
-    "lint:css": "stylelint '**/*.{css,scss}'"
+    "prettier:check": "prettier --list-different \"src/**/*.{css,scss,js,jsx,json,md}\"",
+    "prettier:fix": "prettier --write \"src/**/*.{css,scss,js,jsx,json,md}\"",
+    "lint:js": "eslint 'src/**/*.js'",
+    "lint:css": "stylelint 'src/**/*.{css,scss}'"
   },
   "dependencies": {
     "gatsby": "^2.13.73",
