@@ -1,0 +1,30 @@
+@import '../vendors.scss';
+@import '../variables.scss';
+
+.container {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  @include font-size(1);
+
+  > li {
+    margin-right: 24px;
+  }
+
+  @media (min-width: $viewport-12) {
+    > li {
+      margin-right: 48px;
+    }
+  }
+
+  > li > a {
+    text-decoration: none;
+    color: gray;
+  }
+
+  > li > a:hover,
+  > li > a:focus {
+    color: black;
+  }
+}
