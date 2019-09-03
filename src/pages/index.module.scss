@@ -14,13 +14,13 @@
     color: $text-main;
   }
 
-  > p:last-of-type {
+  > p:nth-last-of-type(2) {
     margin-bottom: 16%;
   }
 
   @media (min-width: $viewport-12) {
-    > p:last-of-type {
-      margin-bottom: 8%;
+    > p:nth-last-of-type(2) {
+      margin-bottom: 4%;
     }
   }
 }
