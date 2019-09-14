@@ -2,8 +2,7 @@
 @import '../variables.scss';
 
 .container {
-  margin-top: 24%;
-  margin-left: 8%;
+  margin: 24% 8%;
   @include font-size(2);
 
   @media (min-width: $viewport-12) {
