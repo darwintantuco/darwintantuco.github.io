@@ -10,13 +10,13 @@ const Index = () => (
   <>
     <SEO />
 
-    <div className={styles.container}>
+    <main className={styles.container}>
       <p>{"I'm a web developer, fiddling with javascript, ruby and elixir."}</p>
       <p>I like building tools and have a soft spot for automation.</p>
       <p>{"I'm an avid open-source contributor as well."} </p>
       <p>{"Let's connect."}</p>
       <SocialMediaLinks />
-    </div>
+    </main>
   </>
 )
 
