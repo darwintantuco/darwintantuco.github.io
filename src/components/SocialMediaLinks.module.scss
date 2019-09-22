@@ -12,12 +12,6 @@
     margin-right: 24px;
   }
 
-  @media (min-width: $viewport-12) {
-    > li {
-      margin-right: 56px;
-    }
-  }
-
   > li > a {
     text-decoration: none;
     color: $text-main;
@@ -26,7 +20,13 @@
 
   > li > a:hover,
   > li > a:focus {
-    color: black;
+    color: dimgrey;
     border-color: $gray;
+  }
+
+  @media (min-width: $viewport-12) {
+    > li {
+      margin-right: 56px;
+    }
   }
 }
