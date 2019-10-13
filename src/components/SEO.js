@@ -4,12 +4,14 @@ import { Helmet } from 'react-helmet'
 const SEO = () => (
   <Helmet
     defer={false}
-    defaultTitle={
-      'Darwin Christopher Tantuco - Web developer - Manila, Philippines'
-    }
+    defaultTitle={'Darwin Christopher Tantuco - Manila, Philippines'}
   >
     <html lang='en' />
     <link rel='canonical' href={'https://dcrtantuco.com'} />
+    <meta
+      name='description'
+      content="I'm a web developer, fiddling with javascript, ruby and elixir."
+    />
     <meta
       name='viewport'
       content='width=device-width,initial-scale=1,shrink-to-fit=no,viewport-fit=cover'
