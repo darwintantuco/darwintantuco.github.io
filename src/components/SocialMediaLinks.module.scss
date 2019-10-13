@@ -6,6 +6,7 @@
   margin: 0;
   padding: 0;
   display: flex;
+  white-space: nowrap;
   @include font-size(1);
 
   > li {
@@ -26,7 +27,7 @@
 
   @media (min-width: $viewport-12) {
     > li {
-      margin-right: 56px;
+      margin-right: 64px;
     }
   }
 }

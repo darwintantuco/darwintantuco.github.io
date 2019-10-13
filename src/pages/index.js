@@ -13,7 +13,7 @@ const Index = () => (
     <main className={styles.container}>
       <p>
         {"Hello! I'm "}
-        <b>{'Darwin Christopher Tantuco.'}</b>
+        <strong>{'Darwin Christopher Tantuco.'}</strong>
       </p>
       <p>{"I'm a web developer, fiddling with javascript, ruby and elixir."}</p>
       <p>{'I like building tools and have a soft spot for automation.'}</p>
