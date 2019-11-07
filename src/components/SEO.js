@@ -7,7 +7,7 @@ const SEO = () => (
     defaultTitle={'Darwin Christopher Tantuco - Manila, Philippines'}
   >
     <html lang='en' />
-    <link rel='canonical' href={'https://dcrtantuco.com'} />
+    <link rel='canonical' href={'https://darwintantuco.com'} />
     <meta
       name='description'
       content="I'm a web developer, fiddling with javascript, ruby and elixir."
@@ -18,13 +18,13 @@ const SEO = () => (
     />
 
     <meta property='og:title' content={'Darwin Christopher Tantuco'} />
-    <meta property='og:url' content={'https://dcrtantuco.com'} />
+    <meta property='og:url' content={'https://darwintantuco.com'} />
     <meta property='og:type' content='website' />
     <meta property='og:locale' content='en' />
     <meta property='og:site_name' content={'Darwin Christopher Tantuco'} />
 
     <meta name='twitter:card' content='summary' />
-    <meta name='twitter:site' content={'@dcrtantuco'} />
+    <meta name='twitter:site' content={'@darwintantuco'} />
   </Helmet>
 )
 
