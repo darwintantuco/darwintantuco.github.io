@@ -11,7 +11,7 @@ const SocialMediaLinks = () => (
       <a href='https://github.com/dcrtantuco'>github</a>
     </li>
     <li>
-      <a href='https://linkedin.com/in/dcrtantuco'>linkedin</a>
+      <a href='https://linkedin.com/in/darwintantuco'>linkedin</a>
     </li>
     <li>
       <a href='https://twitter.com/darwintantuco'>twitter</a>
