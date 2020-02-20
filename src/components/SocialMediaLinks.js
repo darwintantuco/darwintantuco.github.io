@@ -8,7 +8,7 @@ const SocialMediaLinks = () => (
       <a href='mailto:dcrtantuco@gmail.com'>email</a>
     </li>
     <li>
-      <a href='https://github.com/dcrtantuco'>github</a>
+      <a href='https://github.com/darwintantuco'>github</a>
     </li>
     <li>
       <a href='https://linkedin.com/in/darwintantuco'>linkedin</a>
