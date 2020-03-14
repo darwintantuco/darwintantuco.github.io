@@ -4,15 +4,15 @@
   "description": "My personal website",
   "version": "0.1.0",
   "license": "MIT",
-  "prettier": "@dcrtantuco/prettier-config",
+  "prettier": "@darwintantuco/prettier-config",
   "eslintConfig": {
     "extends": [
-      "@dcrtantuco/eslint-config"
+      "@darwintantuco/eslint-config"
     ]
   },
   "stylelint": {
     "extends": [
-      "@dcrtantuco/stylelint-config"
+      "@darwintantuco/stylelint-config"
     ]
   },
   "scripts": {
@@ -40,15 +40,15 @@
     "sanitize.css": "^11.0.0"
   },
   "devDependencies": {
-    "@dcrtantuco/eslint-config": "^1.0.2",
-    "@dcrtantuco/prettier-config": "^1.0.1",
-    "@dcrtantuco/stylelint-config": "^1.0.1",
-    "eslint": "^6.3.0",
+    "@darwintantuco/eslint-config": "^1.0.0",
+    "@darwintantuco/prettier-config": "^1.0.0",
+    "@darwintantuco/stylelint-config": "^1.0.0",
+    "eslint": "^6.8.0",
     "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-react": "^7.19.0",
     "gh-pages": "^2.1.1",
-    "prettier": "^1.18.2",
-    "stylelint": "^10.1.0"
+    "prettier": "^1.19.1",
+    "stylelint": "^13.2.1"
   },
   "repository": {
     "type": "git",
