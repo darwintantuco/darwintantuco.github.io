@@ -2,7 +2,7 @@ import React from 'react'
 
 import styles from './SocialMediaLinks.module.scss'
 
-const SocialMediaLinks = () => (
+const SocialMediaLinks = (): JSX.Element => (
   <ul className={styles.container}>
     <li>
       <a href='mailto:dcrtantuco@gmail.com'>email</a>

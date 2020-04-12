@@ -1,7 +1,7 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
 
-const SEO = () => (
+const SEO = (): JSX.Element => (
   <Helmet
     defer={false}
     defaultTitle={'Darwin Christopher Tantuco - Manila, Philippines'}

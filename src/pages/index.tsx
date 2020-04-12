@@ -6,7 +6,7 @@ import styles from './index.module.scss'
 import SEO from '../components/SEO'
 import SocialMediaLinks from '../components/SocialMediaLinks'
 
-const Index = () => (
+const Index = (): JSX.Element => (
   <>
     <SEO />
 
