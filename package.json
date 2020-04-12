@@ -21,9 +21,8 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "deploy": "gatsby build && gh-pages -d public -b master",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing \"",
-    "prettier:check": "prettier --list-different \"src/**/*.{css,scss,js,jsx,json,md}\"",
-    "prettier:fix": "prettier --write \"src/**/*.{css,scss,js,jsx,json,md}\"",
+    "prettier:check": "prettier --list-different \"**/*.{scss,js,json,md}\"",
+    "prettier:fix": "prettier --write \"**/*.{scss,js,json,md}\"",
     "lint:js": "eslint 'src/**/*.js'",
     "lint:css": "stylelint 'src/**/*.{css,scss}'"
   },
@@ -47,9 +46,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
-  },
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/darwintantuco/darwintantuco.github.io"
   }
 }
