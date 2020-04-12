@@ -6,4 +6,3 @@ script:
   - yarn prettier:check
   - yarn lint:js
   - yarn lint:css
-  - yarn test
