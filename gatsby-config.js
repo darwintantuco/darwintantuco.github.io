@@ -6,9 +6,9 @@
 
 module.exports = {
   plugins: [
-    `gatsby-plugin-sass`,
-    `gatsby-plugin-react-helmet`,
-    `gatsby-plugin-postcss`,
-    `gatsby-plugin-typescript`,
+    'gatsby-plugin-sass',
+    'gatsby-plugin-react-helmet',
+    'gatsby-plugin-postcss',
+    'gatsby-plugin-typescript',
   ],
 }
