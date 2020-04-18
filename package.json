@@ -40,9 +40,9 @@
     "sanitize.css": "^11.0.0"
   },
   "devDependencies": {
-    "@darwintantuco/eslint-config": "^1.0.1",
+    "@darwintantuco/eslint-config": "^1.0.2",
     "@darwintantuco/prettier-config": "^1.0.1",
-    "@darwintantuco/stylelint-config": "^1.0.1",
+    "@darwintantuco/stylelint-config": "^1.0.2",
     "@types/react-helmet": "^5.0.15",
     "gh-pages": "^2.1.1"
   },
