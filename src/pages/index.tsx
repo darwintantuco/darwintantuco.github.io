@@ -1,13 +1,13 @@
 import React from 'react'
 
-import '../base.scss'
-import styles from './index.module.scss'
-
+import Layout from '../components/Layout'
 import SEO from '../components/SEO'
 import SocialMediaLinks from '../components/SocialMediaLinks'
 
+import styles from './index.module.scss'
+
 const Index = (): JSX.Element => (
-  <>
+  <Layout>
     <SEO />
 
     <main className={styles.container}>
@@ -17,7 +17,7 @@ const Index = (): JSX.Element => (
       <p>{"Let's connect."}</p>
       <SocialMediaLinks />
     </main>
-  </>
+  </Layout>
 )
 
 export default Index
