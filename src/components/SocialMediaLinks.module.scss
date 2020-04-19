@@ -1,5 +1,5 @@
-@import '../vendor.scss';
-@import '../variables.scss';
+@import '../styles/vendor.scss';
+@import '../styles/variables.scss';
 
 .container {
   list-style-type: none;
@@ -7,10 +7,15 @@
   padding: 0;
   display: flex;
   white-space: nowrap;
+  justify-content: space-between;
   @include font-size(1);
 
   > li {
     margin-right: 24px;
+  }
+
+  > li:last-of-type {
+    margin-right: 0;
   }
 
   > li > a {
@@ -26,8 +31,6 @@
   }
 
   @media (min-width: $viewport-12) {
-    > li {
-      margin-right: 64px;
-    }
+    width: 384px;
   }
 }

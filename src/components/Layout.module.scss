@@ -2,13 +2,11 @@
 @import '../styles/variables.scss';
 
 .container {
-  > p:nth-last-of-type(2) {
-    margin-bottom: 16%;
-  }
+  margin: 16% 8%;
 
   @media (min-width: $viewport-12) {
-    > p:nth-last-of-type(2) {
-      margin-bottom: 4%;
-    }
+    margin: 8% auto;
+    width: 100%;
+    max-width: $container-size;
   }
 }
