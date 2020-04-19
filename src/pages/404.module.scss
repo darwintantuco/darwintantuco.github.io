@@ -1,0 +1,10 @@
+@import '../styles/vendor.scss';
+@import '../styles/variables.scss';
+
+.code {
+  @include font-size(10);
+}
+
+.text {
+  @include font-size(5);
+}
