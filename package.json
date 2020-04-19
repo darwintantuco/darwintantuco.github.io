@@ -10,11 +10,6 @@
       "@darwintantuco/eslint-config"
     ]
   },
-  "stylelint": {
-    "extends": [
-      "@darwintantuco/stylelint-config"
-    ]
-  },
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
