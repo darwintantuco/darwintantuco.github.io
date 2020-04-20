@@ -3,7 +3,7 @@ import React from 'react'
 import Layout from '../components/Layout'
 import styles from './404.module.scss'
 
-const Page404 = (): JSX.Element => {
+const NotFoundPage = (): JSX.Element => {
   return (
     <Layout>
       <h1 className={styles.code}>404 </h1>
@@ -12,4 +12,4 @@ const Page404 = (): JSX.Element => {
   )
 }
 
-export default Page404
+export default NotFoundPage
