@@ -13,9 +13,6 @@ const SocialMediaLinks = (): JSX.Element => (
     <li>
       <a href='https://linkedin.com/in/darwintantuco'>linkedin</a>
     </li>
-    <li>
-      <a href='https://twitter.com/darwintantuco'>twitter</a>
-    </li>
   </ul>
 )
 
