@@ -8,11 +8,8 @@
   display: flex;
   white-space: nowrap;
   justify-content: space-between;
+  max-width: 240px;
   @include font-size(1);
-
-  > li {
-    margin-right: 24px;
-  }
 
   > li:last-of-type {
     margin-right: 0;
