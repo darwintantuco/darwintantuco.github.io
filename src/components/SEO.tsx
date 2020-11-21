@@ -2,7 +2,7 @@ import React from 'react'
 import { Helmet } from 'react-helmet'
 
 const SEO = (): JSX.Element => (
-  <Helmet defer={false} defaultTitle={'Darwin Tantuco'}>
+  <Helmet defer={false} defaultTitle={'Darwin Tantuco - Manila, Philippines'}>
     <html lang='en' />
     <link rel='canonical' href={'https://darwintantuco.com'} />
     <meta
