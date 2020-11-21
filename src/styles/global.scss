@@ -1,12 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand:300&display=swap');
 
-@import './vendor.scss';
-@import './variables.scss';
+$base-font: 'Quicksand', sans-serif;
+$text-main: #505050;
 
 html,
 body {
   font-family: $base-font;
-  @include font-size(2);
-
   color: $text-main;
 }
