@@ -2,29 +2,23 @@ import React from 'react'
 import { Helmet } from 'react-helmet'
 
 const SEO = (): JSX.Element => (
-  <Helmet
-    defer={false}
-    defaultTitle={'Darwin Christopher Tantuco - Manila, Philippines'}
-  >
+  <Helmet defer={false} defaultTitle={'Darwin Tantuco - Manila, Philippines'}>
     <html lang='en' />
     <link rel='canonical' href={'https://darwintantuco.com'} />
     <meta
       name='description'
-      content="I'm a web developer, fiddling with javascript, ruby and elixir."
+      content='I build web applications using elixir, javascript and ruby.'
     />
     <meta
       name='viewport'
       content='width=device-width,initial-scale=1,shrink-to-fit=no,viewport-fit=cover'
     />
 
-    <meta property='og:title' content={'Darwin Christopher Tantuco'} />
+    <meta property='og:title' content={'Darwin Tantuco'} />
     <meta property='og:url' content={'https://darwintantuco.com'} />
     <meta property='og:type' content='website' />
     <meta property='og:locale' content='en' />
-    <meta property='og:site_name' content={'Darwin Christopher Tantuco'} />
-
-    <meta name='twitter:card' content='summary' />
-    <meta name='twitter:site' content={'@darwintantuco'} />
+    <meta property='og:site_name' content={'Darwin Tantuco'} />
   </Helmet>
 )
 

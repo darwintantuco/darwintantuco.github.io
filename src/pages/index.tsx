@@ -1,23 +1,47 @@
 import React from 'react'
-
-import Layout from '../components/Layout'
 import SEO from '../components/SEO'
-import SocialMediaLinks from '../components/SocialMediaLinks'
-
-import styles from './index.module.scss'
 
 const Index = (): JSX.Element => (
-  <Layout>
+  <div className=''>
     <SEO />
+    <main className='mx-8 my-16 text-xl text-gray-500 md:m-16 md:my-32'>
+      <p className='mb-4'> Hi there!</p>
+      <p className='mb-4'>
+        {`I'm `}
+        <span className='font-bold'>Darwin Tantuco</span>
+        {`, a software developer from Manila, Philippines.`}
+      </p>
+      <p>{`I build web applications using elixir, javascript and ruby.`}</p>
+      <p> I like working on both backend and frontend.</p>
+      <p> I enjoy building tools and have a soft spot for automation.</p>
+      <p className='mb-8'> {`I'm an avid open source contributor as well.`}</p>
 
-    <main className={styles.container}>
-      <p>{"I'm a web developer, fiddling with javascript, ruby and elixir."}</p>
-      <p>{'I like building tools and have a soft spot for automation.'}</p>
-      <p>{"I'm an avid open-source contributor as well."} </p>
-      <p>{"Let's connect."}</p>
-      <SocialMediaLinks />
+      <p className='mb-4'> {`Let's connect.`}</p>
+      <ul className='text-lg'>
+        <li>
+          <a className='hover:text-gray-600' href='mailto:dcrtantuco@gmail.com'>
+            email
+          </a>
+        </li>
+        <li>
+          <a
+            className='hover:text-gray-600'
+            href='https://github.com/darwintantuco'
+          >
+            github
+          </a>
+        </li>
+        <li>
+          <a
+            className='hover:text-gray-600'
+            href='https://linkedin.com/in/darwintantuco'
+          >
+            linkedin
+          </a>
+        </li>
+      </ul>
     </main>
-  </Layout>
+  </div>
 )
 
 export default Index
