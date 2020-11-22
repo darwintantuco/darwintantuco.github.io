@@ -16,14 +16,14 @@ const Index = (): JSX.Element => (
       <p> I enjoy building tools and have a soft spot for automation.</p>
       <p className='mb-8'> {`I'm an avid open source contributor as well.`}</p>
 
-      <p className='mb-4'> {`Let's connect.`}</p>
-      <ul className='text-base md:text-lg'>
-        <li>
+      <p className='mb-8'> {`Let's connect.`}</p>
+      <ul className='flex text-base md:text-lg'>
+        <li className='mr-8'>
           <a className='hover:text-gray-600' href='mailto:dcrtantuco@gmail.com'>
             email
           </a>
         </li>
-        <li>
+        <li className='mr-8'>
           <a
             className='hover:text-gray-600'
             href='https://github.com/darwintantuco'
@@ -31,7 +31,7 @@ const Index = (): JSX.Element => (
             github
           </a>
         </li>
-        <li>
+        <li className='mr-8'>
           <a
             className='hover:text-gray-600'
             href='https://linkedin.com/in/darwintantuco'
