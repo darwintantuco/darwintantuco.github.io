@@ -4,7 +4,7 @@ import SEO from '../components/SEO'
 const Index = (): JSX.Element => (
   <div className=''>
     <SEO />
-    <main className='mx-8 my-16 text-xl text-gray-500 md:m-16 md:my-32'>
+    <main className='mx-8 my-16 text-lg text-gray-500 md:text-xl md:m-16 md:my-32'>
       <p className='mb-4'> Hi there!</p>
       <p className='mb-4'>
         {`I'm `}
@@ -17,7 +17,7 @@ const Index = (): JSX.Element => (
       <p className='mb-8'> {`I'm an avid open source contributor as well.`}</p>
 
       <p className='mb-4'> {`Let's connect.`}</p>
-      <ul className='text-lg'>
+      <ul className='text-base md:text-lg'>
         <li>
           <a className='hover:text-gray-600' href='mailto:dcrtantuco@gmail.com'>
             email
