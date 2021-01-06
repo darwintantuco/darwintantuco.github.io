@@ -19,7 +19,10 @@ const Index = (): JSX.Element => (
       <p className='mb-8'> {`Let's connect.`}</p>
       <ul className='flex text-base md:text-lg'>
         <li className='mr-8'>
-          <a className='hover:text-gray-600' href='mailto:dcrtantuco@gmail.com'>
+          <a
+            className='hover:text-gray-600'
+            href='mailto:dcrtantuco+contact@gmail.com'
+          >
             email
           </a>
         </li>
