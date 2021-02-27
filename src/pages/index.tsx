@@ -13,8 +13,9 @@ const Index = (): JSX.Element => (
       </p>
       <p>{`I build web applications using elixir, javascript and ruby.`}</p>
       <p> I like working on both backend and frontend.</p>
-      <p> I enjoy building tools and have a soft spot for automation.</p>
-      <p className='mb-8'> {`I'm an avid open source contributor as well.`}</p>
+      <p className='mb-8'>
+        I enjoy building tools and have a soft spot for automation.
+      </p>
 
       <p className='mb-8'> {`Let's connect.`}</p>
       <ul className='flex text-base md:text-lg'>
